@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+.container {
+  background: linear-gradient(rgba(13, 12, 48, 0.6),rgba(13, 12, 48, 0.6)),
+   url(./assets/pexels-maxyne-barcel-10402282\ 1.png);
+  background-position: center center;
+  background-size: cover; 
+  height: 100vh;
+  padding: 10px;
+}
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+nav div img {
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+ul {
+  position: relative;
+  left: 600px;
+  width: 500px;
+}
+li {
+  list-style-type: none;
+  margin-right: 50px;
+  color: #F7CD2E;
+  display: inline-block;
+}
+
+nav div button {
+  position: relative;
+  left: 1350px;
+  top: -20px;
+}
+button.button-small {
+  background-color: #FF6666;
+  padding: 10px 30px;
+  color: #ffffff;
+  font-size: 17px;
+  border: none;
+}
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+/* div.hero {
+  position: absolute;
+  left: 300px;
+  top: 500px;
+}*/
+h1.hero-heading {
+  font-family: 'Dela Gothic One', cursive;
+  color: #F7CD2E;
+  font-weight: 300;
+  font-size: 65px;
+  text-align: center;
+  width: 800px;
+}
+div h1 {
+  position: relative;
+  left: 400px;
+  top: 10px;
+}
+button.button-large {
+  position: relative;
+  left: 650px;
+  top: 80px;
+  background-color: #FF6666;
+  border: none;
+  color: #ffffff;
+  padding: 20px 50px;
+  font-family: 'Red Rose', cursive;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+div.bottom div img {
+  position: relative;
+  top: 80px;
+  left: 1330px;
+  width: 150px;
+} 
+div.bottom div img:hover {
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes rotate{
+  from{ transform: rotate(-360deg); }
+  to{ transform: rotate(360deg); }
+}
+/*
+For adding backgrounf image you can use,
+background-image: url(/assets/pexels-maxyne-barcel-10402282\ 1.png);
+
+and then use some of the properties of the bakcground to perfectly arrange the image.
+1st background-size: cover    -it will cover the intiar screen 
+2nd background-position: center center     -it will center the image from horizontally and vertically, both.
+and 3rd height: 100vh 
+
+And done, your image was perfectly added.
+
+
+
+But you want some blursih effect on image, the you have to use,
+background: 
+with linear-gradient()
+and then add the image.
+
+ex.
+  background: linear-gradient(rgba(13, 12, 48, 0.6),rgba(13, 12, 48, 0.6)),
+   url(./assets/pexels-maxyne-barcel-10402282\ 1.png);
+
+
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+*/
